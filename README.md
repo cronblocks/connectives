@@ -1,2 +1,2 @@
 # connectives
-(under initial development) Connectives is intended to serve as a library for providing connections oriented design surfaces
+Connectives is currently under initial development, and is intended to serve as a library for providing connections oriented design surfaces.
