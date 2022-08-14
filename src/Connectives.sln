@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectivesLib", "Connectiv
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApps", "TestApps", "{FD5A7F21-1AFE-4ECF-AF0F-AFDD48B097B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connectives.TestAppWPF", "TestApps\Connectives.TestAppWPF\Connectives.TestAppWPF.csproj", "{20DC9CA6-8B73-4819-9DF6-1BB18B84F877}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,9 +19,16 @@ Global
 		{84632C64-801A-47AE-B11A-8C798F34A593}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84632C64-801A-47AE-B11A-8C798F34A593}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84632C64-801A-47AE-B11A-8C798F34A593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20DC9CA6-8B73-4819-9DF6-1BB18B84F877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DC9CA6-8B73-4819-9DF6-1BB18B84F877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DC9CA6-8B73-4819-9DF6-1BB18B84F877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DC9CA6-8B73-4819-9DF6-1BB18B84F877}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20DC9CA6-8B73-4819-9DF6-1BB18B84F877} = {FD5A7F21-1AFE-4ECF-AF0F-AFDD48B097B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA540000-7489-4323-8DA8-8887A5060D7A}
