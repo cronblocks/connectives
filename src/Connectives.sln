@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectivesLib", "Connectiv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connectives.UWP", "TestApps\Connectives.UWP\Connectives.UWP.csproj", "{A2ECA030-A6F2-4690-9C31-84CEF2939D32}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApps", "TestApps", "{FD5A7F21-1AFE-4ECF-AF0F-AFDD48B097B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2ECA030-A6F2-4690-9C31-84CEF2939D32} = {FD5A7F21-1AFE-4ECF-AF0F-AFDD48B097B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA540000-7489-4323-8DA8-8887A5060D7A}
