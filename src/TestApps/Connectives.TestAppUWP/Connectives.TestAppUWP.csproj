@@ -154,6 +154,12 @@
       <Version>6.2.13</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ConnectivesLib\ConnectivesLib.csproj">
+      <Project>{84632c64-801a-47ae-b11a-8c798f34a593}</Project>
+      <Name>ConnectivesLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
