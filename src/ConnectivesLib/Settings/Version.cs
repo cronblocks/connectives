@@ -1,4 +1,4 @@
-﻿namespace Connectives.Constants
+﻿namespace Connectives.Settings
 {
     public class Version
     {
