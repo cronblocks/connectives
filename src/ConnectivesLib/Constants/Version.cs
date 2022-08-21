@@ -2,10 +2,10 @@
 {
     public class Version
     {
-        public const int VersionMajorNumber = 1;
-        public const int VersionMinorNumber = 0;
-        public const int VersionPatchNumber = 0;
+        public const int MajorNumber = 1;
+        public const int MinorNumber = 0;
+        public const int PatchNumber = 0;
 
-        public string VersionNumber { get { return $"{VersionMajorNumber}.{VersionMinorNumber}.{VersionPatchNumber}"; } }
+        public string VersionString { get { return $"{MajorNumber}.{MinorNumber}.{PatchNumber}"; } }
     }
 }
