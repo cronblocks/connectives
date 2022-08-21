@@ -1,6 +1,6 @@
 ﻿namespace Connectives.Constants
 {
-    public class VersionInfo
+    public class Version
     {
         public const int VersionMajorNumber = 1;
         public const int VersionMinorNumber = 0;
