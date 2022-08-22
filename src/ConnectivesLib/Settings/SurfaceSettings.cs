@@ -1,6 +1,6 @@
 ﻿namespace Connectives.Settings
 {
-    public class SurfaceProps
+    public class SurfaceSettings
     {
     }
 }
