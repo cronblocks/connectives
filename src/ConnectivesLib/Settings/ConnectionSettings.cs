@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Connectives.Settings
+﻿namespace Connectives.Settings
 {
     public class ConnectionSettings
     {
