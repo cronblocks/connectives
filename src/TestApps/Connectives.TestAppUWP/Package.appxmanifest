@@ -32,7 +32,7 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="Connectives.TestAppUWP.App">
       <uap:VisualElements
-        DisplayName="Connectives"
+        DisplayName="Connectives Test"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="Connectives Test Application for UWP"
