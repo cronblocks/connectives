@@ -10,4 +10,11 @@ namespace Connectives.GlobalSettings
         Inch,
         Millimeter
     }
+
+    public enum AngleUnit
+    {
+        Degree,
+        Radian,
+        MilliRadian
+    }
 }
