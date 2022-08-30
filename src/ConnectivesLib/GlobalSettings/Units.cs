@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Connectives.GlobalSettings
 {
-    public enum Distance
+    public enum DistanceUnit
     {
         Pixel,
         Inch,
