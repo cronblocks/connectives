@@ -17,6 +17,6 @@ namespace Connectives.GlobalSettings
         public Color MinorDivisionsColor { get; set; } = Color.FromArgb(alpha: 120, red: 253, green: 219, blue: 181);
 
         public Length DistanceBetweenMajorDivisions { get; set; } = new Length{ Unit = LengthUnit.Inch, Measurement = 1 };
-        public int MinorDivisionsBetweenMajorDivisions { get; set; } = 10;
+        public int MinorDivisionsBetweenMajorDivisions { get; set; } = 12;
     }
 }
