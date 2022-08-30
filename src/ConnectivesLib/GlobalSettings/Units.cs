@@ -1,6 +1,6 @@
 ﻿namespace Connectives.GlobalSettings
 {
-    public enum LengthUnit
+    public enum DistanceUnit
     {
         Pixel,
         PercentageCanvasWidth,
