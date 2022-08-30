@@ -1,6 +1,6 @@
 ﻿namespace Connectives.Common
 {
-    public enum DistanceUnit
+    public enum LengthUnit
     {
         Pixel,
         PercentageCanvasWidth,
