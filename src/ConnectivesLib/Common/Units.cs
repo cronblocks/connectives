@@ -1,4 +1,4 @@
-﻿namespace Connectives.GlobalSettings
+﻿namespace Connectives.Common
 {
     public enum DistanceUnit
     {
