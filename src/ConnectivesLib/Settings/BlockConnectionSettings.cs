@@ -1,6 +1,6 @@
 ﻿namespace Connectives.Settings
 {
-    public class ConnectionSettings
+    public class BlockConnectionSettings
     {
     }
 }
