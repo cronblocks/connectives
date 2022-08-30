@@ -4,6 +4,10 @@ namespace Connectives.GlobalSettings
 {
     public class DrawingSurfaceSettings
     {
+        // ---------------
+        // Colors
+        // ------------
+
         public Color SurfaceColor { get; set; } = Color.FromArgb(alpha: 150, red: 228, green: 221, blue: 135);
 
         public Color MajorDivisionsColor { get; set; } = Color.FromArgb(alpha: 180, red: 250, green: 162, blue: 65);
