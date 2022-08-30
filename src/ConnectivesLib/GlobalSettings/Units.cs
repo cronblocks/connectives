@@ -3,6 +3,8 @@
     public enum DistanceUnit
     {
         Pixel,
+        PercentageCanvasWidth,
+        PercentageCanvasHeight,
         Inch,
         MilliMeter
     }
