@@ -8,7 +8,7 @@ namespace Connectives.GlobalSettings
     {
         Pixel,
         Inch,
-        Millimeter
+        MilliMeter
     }
 
     public enum AngleUnit
