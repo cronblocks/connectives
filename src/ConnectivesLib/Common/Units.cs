@@ -9,6 +9,15 @@
         MilliMeter
     }
 
+    public enum WidthUnit
+    {
+        Pixel,
+        PercentageCanvasWidth,
+        PercentageCanvasHeight,
+        Inch,
+        MilliMeter
+    }
+
     public enum AngleUnit
     {
         Degree,
