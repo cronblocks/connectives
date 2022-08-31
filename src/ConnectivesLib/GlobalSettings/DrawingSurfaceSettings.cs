@@ -11,7 +11,7 @@ namespace Connectives.GlobalSettings
         public Color SurfaceColor { get; set; } = Color.FromArgb(alpha: 150, red: 228, green: 221, blue: 135);
 
         // ---------------
-        // Horizontal Divisions
+        // Background Surface - Horizontal Divisions
         // ------------
         public Color HorizontalMajorDivisionsBackgroundColor { get; set; } = Color.FromArgb(alpha: 150, red: 228, green: 221, blue: 135);
         public Color HorizontalMinorDivisionsBackgroundColor { get; set; } = Color.FromArgb(alpha: 150, red: 228, green: 221, blue: 135);
@@ -26,7 +26,7 @@ namespace Connectives.GlobalSettings
         public int MinorDivisionsBetweenHorizontalMajorDivisions { get; set; } = 0;
 
         // ---------------
-        // Vertical Divisions
+        // Background Surface - Vertical Divisions
         // ------------
         public Color VerticalMajorDivisionsBackgroundColor { get; set; } = Color.FromArgb(alpha: 150, red: 228, green: 221, blue: 135);
         public Color VerticalMinorDivisionsBackgroundColor { get; set; } = Color.FromArgb(alpha: 150, red: 228, green: 221, blue: 135);
