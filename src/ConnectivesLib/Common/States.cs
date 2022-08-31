@@ -1,6 +1,7 @@
 ﻿namespace Connectives.Common
 {
     #region GUI States
+
     // ---------------
     // GUI States
     // ----------
@@ -15,6 +16,7 @@
 
     #endregion
     #region Block States
+
     // ---------------
     // Block States
     // ----------
