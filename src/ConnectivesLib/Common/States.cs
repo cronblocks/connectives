@@ -8,7 +8,9 @@
         BusyOperation
     }
 
-    public enum BlockState
+    public enum BlockSelectionState
     {
+        Selected,
+        Deselected
     }
 }
