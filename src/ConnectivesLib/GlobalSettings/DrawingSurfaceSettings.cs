@@ -19,7 +19,10 @@ namespace Connectives.GlobalSettings
         public Color HorizontalMajorDivisionsBorderLineColor { get; set; } = Color.FromArgb(alpha: 180, red: 250, green: 162, blue: 65);
         public Color HorizontalMinorDivisionsBorderLineColor { get; set; } = Color.FromArgb(alpha: 120, red: 253, green: 219, blue: 181);
 
-        public Length VerticalDistanceBetweenHorizontalMajorDivisions { get; set; } = new Length{ Unit = LengthUnit.Inch, Measurement = 4 };
+        public Width HorizontalMajorDivisionsBorderLineWidth { get; set; } = new Width { Unit = WidthUnit.MilliMeter, Measurement = 0.05 };
+        public Width HorizontalMinorDivisionsBorderLineWidth { get; set; } = new Width { Unit = WidthUnit.MilliMeter, Measurement = 0.01 };
+
+        public Length VerticalDistanceBetweenHorizontalMajorDivisions { get; set; } = new Length { Unit = LengthUnit.Inch, Measurement = 4 };
         public int MinorDivisionsBetweenHorizontalMajorDivisions { get; set; } = 0;
 
         // ---------------
@@ -30,6 +33,9 @@ namespace Connectives.GlobalSettings
 
         public Color VerticalMajorDivisionsBorderLineColor { get; set; } = Color.FromArgb(alpha: 180, red: 250, green: 162, blue: 65);
         public Color VerticalMinorDivisionsBorderLineColor { get; set; } = Color.FromArgb(alpha: 120, red: 253, green: 219, blue: 181);
+
+        public Width VerticalMajorDivisionsBorderLineWidth { get; set; } = new Width { Unit = WidthUnit.MilliMeter, Measurement = 0.05 };
+        public Width VerticalMinorDivisionsBorderLineWidth { get; set; } = new Width { Unit = WidthUnit.MilliMeter, Measurement = 0.01 };
 
         public Length HorizontalDistanceBetweenVerticalMajorDivisions { get; set; } = new Length { Unit = LengthUnit.Inch, Measurement = 1 };
         public int MinorDivisionsBetweenVerticalMajorDivisions { get; set; } = 12;
