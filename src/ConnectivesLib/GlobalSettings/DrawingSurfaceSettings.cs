@@ -33,5 +33,10 @@ namespace Connectives.GlobalSettings
 
         public Length HorizontalDistanceBetweenVerticalMajorDivisions { get; set; } = new Length { Unit = LengthUnit.Inch, Measurement = 1 };
         public int MinorDivisionsBetweenVerticalMajorDivisions { get; set; } = 12;
+
+        // ---------------
+        // Selection
+        // ------------
+        public Color SelectionLineColor { get; set; } = Color.FromArgb(alpha: 180, red: 251, green: 70, blue: 70);
     }
 }
