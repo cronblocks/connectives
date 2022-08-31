@@ -1,5 +1,9 @@
 ﻿namespace Connectives.Common
 {
+    // ---------------
+    // GUI States
+    // ----------
+
     public enum GuiState
     {
         Loading,
@@ -7,6 +11,10 @@
         Unloading,
         BusyOperation
     }
+    
+    // ---------------
+    // Block States
+    // ----------
 
     public enum BlockSelectionState
     {
