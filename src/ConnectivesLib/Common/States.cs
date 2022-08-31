@@ -1,5 +1,6 @@
 ﻿namespace Connectives.Common
 {
+    #region GUI States
     // ---------------
     // GUI States
     // ----------
@@ -11,7 +12,9 @@
         Unloading,
         BusyOperation
     }
-    
+
+    #endregion
+    #region Block States
     // ---------------
     // Block States
     // ----------
@@ -21,4 +24,6 @@
         Selected,
         Deselected
     }
+
+    #endregion
 }
