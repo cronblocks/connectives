@@ -44,5 +44,7 @@ namespace Connectives.GlobalSettings
         // Selection
         // ------------
         public Color SelectionLineColor { get; set; } = Color.FromArgb(alpha: 180, red: 251, green: 70, blue: 70);
+
+        public Width SelectionLineWidth { get; set; } = new Width { Unit = DistanceUnit.MilliMeter, Measurement = 0.10 };
     }
 }
