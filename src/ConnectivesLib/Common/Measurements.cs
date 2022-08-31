@@ -2,13 +2,13 @@
 {
     public class Width
     {
-        public WidthUnit Unit { get; set; } = WidthUnit.MilliMeter;
+        public DistanceUnit Unit { get; set; } = DistanceUnit.MilliMeter;
         public double Measurement { get; set; } = 0;
     }
 
     public class Length
     {
-        public LengthUnit Unit { get; set; } = LengthUnit.MilliMeter;
+        public DistanceUnit Unit { get; set; } = DistanceUnit.MilliMeter;
         public double Measurement { get; set; } = 0;
     }
 
