@@ -1,6 +1,6 @@
 ﻿namespace Connectives.Common
 {
-    public enum LengthUnit
+    public enum WidthUnit
     {
         Pixel,
         PercentageCanvasWidth,
@@ -9,7 +9,7 @@
         MilliMeter
     }
 
-    public enum WidthUnit
+    public enum LengthUnit
     {
         Pixel,
         PercentageCanvasWidth,
