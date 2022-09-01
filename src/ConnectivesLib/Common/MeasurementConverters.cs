@@ -4,22 +4,22 @@
     {
         static WidthMeasurement ConvertTo(this WidthMeasurement measurement, DistanceUnit targetUnit)
         {
-            return null;
+            return measurement;
         }
 
         static LengthMeasurement ConvertTo(this LengthMeasurement measurement, DistanceUnit targetUnit)
         {
-            return null;
+            return measurement;
         }
 
         static AngleMeasurement ConvertTo(this AngleMeasurement measurement, AngleUnit targetUnit)
         {
-            return null;
+            return measurement;
         }
 
         static TimeMeasurement ConvertTo(this TimeMeasurement measurement, TimeUnit targetUnit)
         {
-            return null;
+            return measurement;
         }
     }
 }
