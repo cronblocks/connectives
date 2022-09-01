@@ -120,7 +120,76 @@
 
         public static double GetTimeConversionFactor(TimeUnit from, TimeUnit to)
         {
-
+            switch (from)
+            {
+                case TimeUnit.Nanosecond:
+                    switch (to)
+                    {
+                        case TimeUnit.Nanosecond:  return 1.0;
+                        case TimeUnit.Microsecond: return 0.0;
+                        case TimeUnit.Millisecond: return 0.0;
+                        case TimeUnit.Second:      return 0.0;
+                        case TimeUnit.Minute:      return 0.0;
+                        case TimeUnit.Hour:        return 0.0;
+                        default:                   return 0.0;
+                    }
+                case TimeUnit.Microsecond:
+                    switch (to)
+                    {
+                        case TimeUnit.Nanosecond:  return 0.0;
+                        case TimeUnit.Microsecond: return 1.0;
+                        case TimeUnit.Millisecond: return 0.0;
+                        case TimeUnit.Second:      return 0.0;
+                        case TimeUnit.Minute:      return 0.0;
+                        case TimeUnit.Hour:        return 0.0;
+                        default:                   return 0.0;
+                    }
+                case TimeUnit.Millisecond:
+                    switch (to)
+                    {
+                        case TimeUnit.Nanosecond:  return 0.0;
+                        case TimeUnit.Microsecond: return 0.0;
+                        case TimeUnit.Millisecond: return 1.0;
+                        case TimeUnit.Second:      return 0.0;
+                        case TimeUnit.Minute:      return 0.0;
+                        case TimeUnit.Hour:        return 0.0;
+                        default:                   return 0.0;
+                    }
+                case TimeUnit.Second:
+                    switch (to)
+                    {
+                        case TimeUnit.Nanosecond:  return 0.0;
+                        case TimeUnit.Microsecond: return 0.0;
+                        case TimeUnit.Millisecond: return 0.0;
+                        case TimeUnit.Second:      return 1.0;
+                        case TimeUnit.Minute:      return 0.0;
+                        case TimeUnit.Hour:        return 0.0;
+                        default:                   return 0.0;
+                    }
+                case TimeUnit.Minute:
+                    switch (to)
+                    {
+                        case TimeUnit.Nanosecond:  return 0.0;
+                        case TimeUnit.Microsecond: return 0.0;
+                        case TimeUnit.Millisecond: return 0.0;
+                        case TimeUnit.Second:      return 0.0;
+                        case TimeUnit.Minute:      return 1.0;
+                        case TimeUnit.Hour:        return 0.0;
+                        default:                   return 0.0;
+                    }
+                case TimeUnit.Hour:
+                    switch (to)
+                    {
+                        case TimeUnit.Nanosecond:  return 0.0;
+                        case TimeUnit.Microsecond: return 0.0;
+                        case TimeUnit.Millisecond: return 0.0;
+                        case TimeUnit.Second:      return 0.0;
+                        case TimeUnit.Minute:      return 0.0;
+                        case TimeUnit.Hour:        return 1.0;
+                        default:                   return 0.0;
+                    }
+                default: return 0.0;
+            }
         }
     }
 }
