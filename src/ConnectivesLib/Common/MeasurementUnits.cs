@@ -21,6 +21,6 @@
         Millisecond,
         Second,
         Minute,
-        Hour,
+        Hour
     }
 }
