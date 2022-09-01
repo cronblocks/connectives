@@ -126,11 +126,11 @@
                     switch (to)
                     {
                         case TimeUnit.Nanosecond:  return 1.0;
-                        case TimeUnit.Microsecond: return 0.0;
-                        case TimeUnit.Millisecond: return 0.0;
-                        case TimeUnit.Second:      return 0.0;
-                        case TimeUnit.Minute:      return 0.0;
-                        case TimeUnit.Hour:        return 0.0;
+                        case TimeUnit.Microsecond: return 1.0 / 1000.0;
+                        case TimeUnit.Millisecond: return 1.0 / 1000000.0;
+                        case TimeUnit.Second:      return 1.0 / 1000000000.0;
+                        case TimeUnit.Minute:      return 1.0 / (1000000000.0 * 60.0);
+                        case TimeUnit.Hour:        return 1.0 / (1000000000.0 * 60.0 * 60.0);
                         default:                   return 0.0;
                     }
                 case TimeUnit.Microsecond:
