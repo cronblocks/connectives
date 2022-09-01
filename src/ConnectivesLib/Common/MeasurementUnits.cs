@@ -15,4 +15,12 @@
         Radian,
         MilliRadian
     }
+
+    public enum TimeUnit
+    {
+        Millisecond,
+        Second,
+        Minute,
+        Hour,
+    }
 }
