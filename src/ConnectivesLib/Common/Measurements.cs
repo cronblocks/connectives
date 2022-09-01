@@ -17,4 +17,10 @@
         public AngleUnit Unit { get; set; } = AngleUnit.Degree;
         public double Measurement { get; set; } = 0;
     }
+
+    public class Time
+    {
+        public TimeUnit Unit { get; set; } = TimeUnit.Millisecond;
+        public double Measurement { get; set; } = 0;
+    }
 }
