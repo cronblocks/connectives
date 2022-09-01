@@ -86,7 +86,34 @@
 
         public static double GetAngleConversionFactor(AngleUnit from, AngleUnit to)
         {
-
+            switch (from)
+            {
+                case AngleUnit.Degree:
+                    switch (to)
+                    {
+                        case AngleUnit.Degree:      return 1.0;
+                        case AngleUnit.Radian:      return 0.0;
+                        case AngleUnit.MilliRadian: return 0.0;
+                        default: return 0.0;
+                    }
+                case AngleUnit.Radian:
+                    switch (to)
+                    {
+                        case AngleUnit.Degree:      return 0.0;
+                        case AngleUnit.Radian:      return 1.0;
+                        case AngleUnit.MilliRadian: return 0.0;
+                        default: return 0.0;
+                    }
+                case AngleUnit.MilliRadian:
+                    switch (to)
+                    {
+                        case AngleUnit.Degree:      return 0.0;
+                        case AngleUnit.Radian:      return 0.0;
+                        case AngleUnit.MilliRadian: return 1.0;
+                        default: return 0.0;
+                    }
+                default: return 0.0;
+            }
         }
 
         public static double GetTimeConversionFactor(TimeUnit from, TimeUnit to)
