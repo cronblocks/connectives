@@ -23,4 +23,9 @@
         Minute,
         Hour
     }
+
+    internal static class ConversionFactors
+    {
+
+    }
 }
