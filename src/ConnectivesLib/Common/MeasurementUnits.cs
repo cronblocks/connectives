@@ -95,7 +95,7 @@
                     {
                         case AngleUnit.Degree:      return 1.0;
                         case AngleUnit.Radian:      return Constants.PI / 180.0;
-                        case AngleUnit.MilliRadian: return (Constants.PI * 1000) / 180.0;
+                        case AngleUnit.MilliRadian: return (Constants.PI * 1000.0) / 180.0;
                         default:                    return 0.0;
                     }
                 case AngleUnit.Radian:
