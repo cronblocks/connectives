@@ -147,8 +147,8 @@
                 case TimeUnit.Millisecond:
                     switch (to)
                     {
-                        case TimeUnit.Nanosecond:  return 0.0;
-                        case TimeUnit.Microsecond: return 0.0;
+                        case TimeUnit.Nanosecond:  return 1000000.0;
+                        case TimeUnit.Microsecond: return 1000.0;
                         case TimeUnit.Millisecond: return 1.0;
                         case TimeUnit.Second:      return 0.0;
                         case TimeUnit.Minute:      return 0.0;
