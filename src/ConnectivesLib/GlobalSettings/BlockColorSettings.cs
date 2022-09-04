@@ -1,6 +1,6 @@
 ﻿namespace Connectives.GlobalSettings
 {
-    public static class BlockColorSettings
+    public class BlockColorSettings
     {
     }
 }
