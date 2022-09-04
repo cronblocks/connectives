@@ -6,10 +6,13 @@ namespace Connectives.GlobalSettings
     public class DrawingSurfaceSettings
     {
         // ---------------
-        // Colors
+        // Colors - Background
         // ------------
         public Color SurfaceBackgroundColor { get; set; } = Color.FromArgb(alpha: 150, red: 228, green: 221, blue: 135);
 
+        // ---------------
+        // Colors - Grid
+        // ------------
         public Color HorizontalMajorDivisionsBackgroundColor { get; set; } = Color.FromArgb(alpha: 150, red: 228, green: 221, blue: 135);
         public Color HorizontalMinorDivisionsBackgroundColor { get; set; } = Color.FromArgb(alpha: 150, red: 228, green: 221, blue: 135);
         public Color HorizontalMajorDivisionsBorderLineColor { get; set; } = Color.FromArgb(alpha: 180, red: 250, green: 162, blue: 65);
@@ -20,6 +23,9 @@ namespace Connectives.GlobalSettings
         public Color VerticalMajorDivisionsBorderLineColor { get; set; } = Color.FromArgb(alpha: 180, red: 250, green: 162, blue: 65);
         public Color VerticalMinorDivisionsBorderLineColor { get; set; } = Color.FromArgb(alpha: 120, red: 253, green: 219, blue: 181);
 
+        // ---------------
+        // Colors - Selection
+        // ------------
         public Color SelectionBoxFillColor { get; set; } = Color.FromArgb(alpha: 160, red: 228, green: 221, blue: 135);
         public Color SelectionLineColor { get; set; } = Color.FromArgb(alpha: 180, red: 251, green: 70, blue: 70);
 
