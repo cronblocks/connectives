@@ -20,7 +20,7 @@ namespace Connectives.GlobalSettings
         public Color VerticalMajorDivisionsBorderLineColor { get; set; } = Color.FromArgb(alpha: 180, red: 250, green: 162, blue: 65);
         public Color VerticalMinorDivisionsBorderLineColor { get; set; } = Color.FromArgb(alpha: 120, red: 253, green: 219, blue: 181);
 
-        public Color SelectionBoxColor { get; set; } = Color.FromArgb(alpha: 160, red: 228, green: 221, blue: 135);
+        public Color SelectionBoxFillColor { get; set; } = Color.FromArgb(alpha: 160, red: 228, green: 221, blue: 135);
         public Color SelectionLineColor { get; set; } = Color.FromArgb(alpha: 180, red: 251, green: 70, blue: 70);
 
         // ---------------
