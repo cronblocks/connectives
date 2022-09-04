@@ -1,6 +1,6 @@
 ﻿namespace Connectives.GlobalSettings
 {
-    public static class BlockConnectionSettings
+    public class BlockConnectionSettings
     {
     }
 }
