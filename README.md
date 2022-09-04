@@ -1,2 +1,5 @@
 # Connectives
-Connectives is currently under initial development, and is intended to serve as a library for providing connections oriented design surfaces, along-side providing default items in addition to allowing completely customized items.
+
+> Current status: ***under initial development***
+
+*Connectives* is a *C# .Net Standard library* intended to providing connections oriented design orchestration surfaces, along-side providing default items (for familiarizing users) in addition to allowing completely customized design items.
