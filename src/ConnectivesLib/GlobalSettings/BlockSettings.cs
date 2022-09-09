@@ -8,7 +8,8 @@ namespace Connectives.GlobalSettings
         // ---------------
         // Colors
         // ------------
-        public Color BlockBorderColor { get; set; } = Color.FromArgb(alpha: 200, red: 250, green: 35, blue: 35);
+        public Color BlockBorderColor { get; set; } = Color.FromArgb(alpha: 180, red: 250, green: 35, blue: 35);
+        public Color BlockBorderSelectedColor { get; set; } = Color.FromArgb(alpha: 250, red: 250, green: 35, blue: 35);
 
         public Color ConnectionValidColor { get; set; } = Color.FromArgb(alpha: 180, red: 68, green: 188, blue: 10);
         public Color ConnectionInvalidColor { get; set; } = Color.FromArgb(alpha: 180, red: 254, green: 50, blue: 101);
