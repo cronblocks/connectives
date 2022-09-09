@@ -23,5 +23,6 @@ namespace Connectives.GlobalSettings
         public WidthMeasurement BlockBorderLineWidth { get; set; } = new WidthMeasurement { Unit = DistanceUnit.MilliMeter, Measurement = 0.08 };
 
         public WidthMeasurement ConnectionLineWidth { get; set; } = new WidthMeasurement { Unit = DistanceUnit.MilliMeter, Measurement = 0.10 };
+        public WidthMeasurement ConnectionSelectedLineWidth { get; set; } = new WidthMeasurement { Unit = DistanceUnit.MilliMeter, Measurement = 0.13 };
     }
 }
