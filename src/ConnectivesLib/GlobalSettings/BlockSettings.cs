@@ -19,6 +19,7 @@ namespace Connectives.GlobalSettings
 
         public Color InputPortColor { get; set; } = Color.FromArgb(alpha: 250, red: 82, green: 58, blue: 245);
         public Color OutputPortColor { get; set; } = Color.FromArgb(alpha: 250, red: 204, green: 220, blue: 10);
+        public Color IOPortColor { get; set; } = Color.FromArgb(alpha: 250, red: 58, green: 163, blue: 171);
 
         // ---------------
         // Dimensions
