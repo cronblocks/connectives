@@ -17,6 +17,9 @@ namespace Connectives.GlobalSettings
         public Color ConnectionValidSelectedColor { get; set; } = Color.FromArgb(alpha: 250, red: 68, green: 188, blue: 10);
         public Color ConnectionInvalidSelectedColor { get; set; } = Color.FromArgb(alpha: 250, red: 254, green: 50, blue: 101);
 
+        public Color InputPortColor { get; set; } = Color.FromArgb(alpha: 250, red: 82, green: 58, blue: 245);
+        public Color OutputPortColor { get; set; } = Color.FromArgb(alpha: 250, red: 204, green: 220, blue: 10);
+
         // ---------------
         // Dimensions
         // ------------
